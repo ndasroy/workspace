@@ -1,0 +1,40 @@
+
+public class Interface 
+
+{
+
+	public static void main(String args[])
+	{
+		
+	}
+	
+	interface Vec4
+	{
+		int wheel=4;		// Interface can have attributes & by default static
+		void Display();
+	}
+
+	
+	interface Auto
+	{
+		int wheel=6;
+		void Print();
+	}
+	
+	
+class Car4 implements Vec4,Auto		
+	
+	{
+	
+		public void Display()		 // By Default all the methods are public(even if we don't define it public)
+		{
+			System.out.println("Wheel = "+wheel);
+		}
+		public void Print()		 
+		{
+			System.out.println("Override ..");
+		}
+	}
+	
+}
+

@@ -1,0 +1,41 @@
+
+public class Abstract_Constructor 
+{
+
+	public static void main(String args[])
+	{
+		Car3 c;
+		c=new Car3(9);	// Calling child class constructor
+		c.print();
+		
+	}
+	
+}	
+	abstract class vec3
+	{
+		int wheel;
+		vec3(int wheel)
+		{
+			this.wheel=wheel;
+		}
+		abstract void Display();			
+		
+		void print()					
+		{
+			System.out.println(wheel);
+		}
+	}
+		
+	class Car3 extends vec3		
+	
+	{
+		Car3(int wheel)
+		{
+			super (wheel);
+		}
+		void Display()		 
+		{
+			System.out.println("Override ..");
+		}
+		
+	}

@@ -1,0 +1,30 @@
+package Test.java;
+
+import org.testng.annotations.Test;
+
+import PO_TestCases.FirefoxDriver;
+import PO_TestCases.WebDriver;
+import PageObject.Home_Page;
+import PageObject.Login_Page;
+
+public class MavenTest {
+  @Test
+  public void f() 
+  {
+	  public static void main(String[] args)
+		{
+			WebDriver driver=new FirefoxDriver();
+			driver.get("http://www.justrechargeit.com");
+			driver.manage().window().maximize();
+			
+			Home_Page.Link_Login(driver).click();
+			Login_Page.txtbx_UserName(driver).sendKeys("anil.shirole.jy@gmail.com");
+			Login_Page.txtbx_Password(driver).sendKeys("123456");
+			Login_Page.btn_LogIn(driver).click();
+			
+			Home_Page.Link_Logout(driver).click();
+			
+			driver.close();
+
+  }
+}

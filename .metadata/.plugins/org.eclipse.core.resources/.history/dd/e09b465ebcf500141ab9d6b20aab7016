@@ -1,0 +1,33 @@
+
+public class Inheritance 
+{
+
+	public static void main()
+	{
+		
+		
+	}
+	
+	
+	class vec
+	{
+		int wheel=4;
+		void Display()
+		{
+			System.out.println("I am Display..");
+		}
+		
+		
+	}
+	
+	class Car extends vec
+	{
+		void Display()
+		{
+			System.out.println("How r u...?");
+		}
+		
+	}
+	
+	
+}

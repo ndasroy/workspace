@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Practice.L.java&apos; to &apos;LearnedCode_NotToRun.java&apos;&#x0D;&#x0A;- Original project: &apos;LearnJava&apos;&#x0D;&#x0A;- Original element: &apos;Practice.L.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Practice.LearnedCode_NotToRun.java&apos;" description="Rename compilation unit &apos;L.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;Practice{L.java" name="LearnedCode_NotToRun.java" references="false" stamp="1434777027142" version="1.0"/>
+</session>

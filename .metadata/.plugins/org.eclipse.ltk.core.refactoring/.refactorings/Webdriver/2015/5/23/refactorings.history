@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Softedge_Selenium.ChromeDriver&apos; to &apos;Chrome_Driver&apos;&#x0D;&#x0A;- Original project: &apos;Webdriver&apos;&#x0D;&#x0A;- Original element: &apos;Softedge_Selenium.ChromeDriver&apos;&#x0D;&#x0A;- Renamed element: &apos;Softedge_Selenium.Chrome_Driver&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ChromeDriver&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Softedge_Selenium{ChromeDriver.java[ChromeDriver" matchStrategy="1" name="Chrome_Driver" qualified="false" references="true" similarDeclarations="false" stamp="1433056358945" textual="false" version="1.0"/>
+</session>

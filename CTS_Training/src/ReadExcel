@@ -1,0 +1,50 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.apache.poi.ss.usermodel.cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+
+public class ReadExcel
+{
+	public static void main(String[] args)
+	{
+		
+		try
+		{
+			String FilePath = "D://Sampple.xlsx";
+			FileInputStream fs = new FileInputStream(FilePath);
+			XSSFWorkbook workBook= new XSSFWorkbook();
+			XSSFSheet inSheet1=workBook.getSheetAt("xyz");
+			
+			
+			int rowCount1=inSheet1.getPhysicalNumberOfRows();
+			int colCount=inSheet1.getRow(0).getPhysicalNumberOfCells();
+			
+			for(int i=0;i<rowCount1;i++)
+			{
+				for (int j=0;j<colCount;j++)
+				{
+					inSheet1.getRow(i).getCell(j).setCellType(Cell.CELL_TYPE_STRING);
+					String Value= inSheet1.getRow(i).getCell(j).getStringCellValue();
+					System.out.println(Value);
+				}
+			}
+		
+		
+		}
+		catch(Exception e)
+		{
+		System.out.println(e);
+		}
+	
+	
+	}
+
+}

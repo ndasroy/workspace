@@ -1,0 +1,27 @@
+
+public class Single_Tone 
+{
+
+	public static void main(String args[])
+	{
+		
+	}
+}
+
+class Bank
+{
+	int Bal;
+	private Bank(int B)	// Private Constructor
+	{
+		Bal=B;
+	}
+	
+	static Bank getInstance()
+	{
+		Bank b= new Bank(5000);
+		return b;
+	}
+	
+	
+	
+}

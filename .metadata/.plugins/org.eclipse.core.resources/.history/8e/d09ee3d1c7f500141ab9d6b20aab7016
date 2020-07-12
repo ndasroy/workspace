@@ -1,0 +1,34 @@
+
+public class Abstract_Constructor 
+{
+
+	public static void main(String args[])
+	{
+		
+	}
+	
+}	
+	abstract class vec3
+	{
+		int wheel;
+		vec3(int wheel)
+		{
+			this.wheel=wheel;
+		}
+		abstract void Display();			
+		
+		void print()					
+		{
+			System.out.println("Normal Method in AbstractClass");
+		}
+	}
+		
+	class Car2 extends vec2		
+	
+	{
+		void Display()		 
+		{
+			System.out.println("Override ..");
+		}
+		
+	}

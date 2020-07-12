@@ -1,0 +1,22 @@
+
+public class AccessSpecifier 
+{
+
+	public static void main(String args[])
+	{
+		
+	}
+	
+	class Student
+	{
+		private String S_Id;
+		String Name;
+		
+		public void Display()
+		{
+			int x=10;
+		}
+	}
+	
+	
+}

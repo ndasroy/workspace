@@ -1,0 +1,25 @@
+
+public class AbstractClass 
+{
+	public static void main(String args[])
+	{
+		Car2 c=new Car2();
+		c.Display();
+		
+	}
+	
+}	
+	abstract class vec2
+	{
+		abstract void Display();	
+	}
+		
+	class Car2 extends vec2		// When we inherit abstract class... we need to override abstract method
+	
+	{
+		void Display()		// Override 
+		{
+			System.out.println("Override ..");
+		}
+		
+	}

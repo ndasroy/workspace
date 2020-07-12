@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17" started-at="2015-06-09T02:05:05Z" finished-at="2015-06-09T02:05:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17" started-at="2015-06-09T02:05:05Z" finished-at="2015-06-09T02:05:05Z">
+      <class name="Ant_Package.TestAnt2">
+        <test-method status="PASS" signature="TestClass4()[pri:0, instance:Ant_Package.TestAnt2@3b8c282a]" name="TestClass4" duration-ms="0" started-at="2015-06-09T07:35:05Z" finished-at="2015-06-09T07:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClass4 -->
+        <test-method status="PASS" signature="TestClass6()[pri:0, instance:Ant_Package.TestAnt2@3b8c282a]" name="TestClass6" duration-ms="0" started-at="2015-06-09T07:35:05Z" finished-at="2015-06-09T07:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClass6 -->
+        <test-method status="PASS" signature="TestClass5()[pri:0, instance:Ant_Package.TestAnt2@3b8c282a]" name="TestClass5" duration-ms="0" started-at="2015-06-09T07:35:05Z" finished-at="2015-06-09T07:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClass5 -->
+        <test-method status="PASS" signature="TestClass7()[pri:0, instance:Ant_Package.TestAnt2@3b8c282a]" name="TestClass7" duration-ms="0" started-at="2015-06-09T07:35:05Z" finished-at="2015-06-09T07:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClass7 -->
+      </class> <!-- Ant_Package.TestAnt2 -->
+      <class name="Ant_Package.TestAnt1">
+        <test-method status="PASS" signature="TestClass1()[pri:0, instance:Ant_Package.TestAnt1@2147545b]" name="TestClass1" duration-ms="5" started-at="2015-06-09T07:35:05Z" finished-at="2015-06-09T07:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClass1 -->
+        <test-method status="PASS" signature="TestClass2()[pri:0, instance:Ant_Package.TestAnt1@2147545b]" name="TestClass2" duration-ms="0" started-at="2015-06-09T07:35:05Z" finished-at="2015-06-09T07:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClass2 -->
+        <test-method status="PASS" signature="TestClass3()[pri:0, instance:Ant_Package.TestAnt1@2147545b]" name="TestClass3" duration-ms="0" started-at="2015-06-09T07:35:05Z" finished-at="2015-06-09T07:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClass3 -->
+      </class> <!-- Ant_Package.TestAnt1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

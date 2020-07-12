@@ -1,0 +1,14 @@
+package Old_Programmes;
+
+import java.util.Scanner;
+public class Find_Rem 
+
+{
+
+	public static void main(String[] args)
+	{
+		int num1,num2,rem;
+		
+		
+	}
+}

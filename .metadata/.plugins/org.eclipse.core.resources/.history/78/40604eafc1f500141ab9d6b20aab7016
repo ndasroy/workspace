@@ -1,0 +1,24 @@
+
+public class AbstractClass 
+{
+	public static void main(String args[])
+	{
+		
+		
+	}
+	
+}	
+	abstract class vec2
+	{
+		abstract void Display();
+	}
+		
+		
+		void Display()
+		{
+			System.out.println("I am Vehicle..");
+		}
+		
+		
+	}
+	

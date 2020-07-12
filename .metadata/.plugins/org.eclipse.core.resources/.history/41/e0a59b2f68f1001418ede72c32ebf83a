@@ -1,0 +1,21 @@
+
+public class Encapsulation 
+{
+
+	public static void main(String args[])
+	{
+		
+	}
+	
+	class Bank  
+	{
+		private String Account_No="B001";
+		private int Bal=5000;
+		
+		public int getBal()
+		{
+			int x=10;  
+		}
+	}
+	
+}

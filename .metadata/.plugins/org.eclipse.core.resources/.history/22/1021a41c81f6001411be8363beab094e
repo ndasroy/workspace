@@ -1,0 +1,38 @@
+
+public class Interface 
+
+{
+
+	public static void main(String args[])
+	{
+		
+	}
+	
+	interface Vec4
+	{
+		void Display();
+	}
+
+	
+	interface Auto
+	{
+		void Print();
+	}
+	
+	
+class Car4 implements Vec4,Auto		
+	
+	{
+	
+		public void Display()		 
+		{
+			System.out.println("Override ..");
+		}
+		public void Print()		 
+		{
+			System.out.println("Override ..");
+		}
+	}
+	
+}
+

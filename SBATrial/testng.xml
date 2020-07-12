@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+  <test verbose="2" name="Default test">
+	<parameter name="browser" value="firefox"/> 
+	<parameter name="url" value="http://www.cleartrip.com"/>
+	<parameter name="datapath" value="src\com\sba\data\data.xls"/>
+	<parameter name="iedriverpath" value="resources\driver_ie\IEDriverServer.exe"/>
+	<parameter name="outputpath" value="Script_Output"/>
+    <classes>
+      <class name="com.sba.core.Runner"/>
+    </classes>
+  </test> 
+</suite> 

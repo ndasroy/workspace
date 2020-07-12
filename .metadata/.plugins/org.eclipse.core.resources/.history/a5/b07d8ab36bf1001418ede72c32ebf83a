@@ -1,0 +1,36 @@
+
+public class EncapPractise 
+{
+
+	public static void main(String args[])
+	{
+		Bank b= new Bank();
+		System.out.println("Account balance = "+b.getBal());
+		b.addBal(500000, "XYZ");
+		System.out.println("New Account balance = "+b.getBal());
+	}
+}
+	class Student2  
+	{
+		private String Name="Nab";
+		private int Marks=80;
+		
+		public int getMarks()
+		{
+			return Marks;
+		}
+		
+		public void addMarks(int m,String name)
+		{
+			if(name=="XYZ")
+			{
+				Marks=Marks+m;
+			}
+			else
+			{
+				System.out.println("Invalid Option");
+			}
+		}
+	}
+	
+

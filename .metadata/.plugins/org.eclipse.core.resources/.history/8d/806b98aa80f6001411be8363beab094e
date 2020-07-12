@@ -1,0 +1,26 @@
+
+public class Interface 
+
+{
+
+	public static void main(String args[])
+	{
+		
+	}
+	
+	interface Vec4
+	{
+		void Display();
+	}
+
+	
+	interface auto
+	{
+		void Print();
+	}
+	
+	
+	
+	
+}
+

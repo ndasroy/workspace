@@ -1,0 +1,44 @@
+
+public class Inheritance 
+{
+
+	public static void main()
+	{
+		Car C=new Car();
+		C.Display();
+		C.Print();
+	}
+	
+}	
+	class vec
+	{
+		int wheel=4;
+		void Display()
+		{
+			System.out.println("I am Display..");
+		}
+		
+		
+	}
+	
+	class Car extends vec
+	{
+		void Display()// Overrides the base class
+		{
+			System.out.println("How r u...?");
+		}
+	
+		void Print()
+		{
+			System.out.println("I am Car...");
+		}
+		
+		class Bus extends vec
+		{
+			void Display()// Overrides the base class
+			{
+				System.out.println("I am Bus...");
+			}
+			
+		}
+	}

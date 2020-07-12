@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Assign_Project.Assignment_DeleteNumber&apos; to &apos;Assignment_BrowserSwitch&apos;&#x0D;&#x0A;- Original project: &apos;Webdriver&apos;&#x0D;&#x0A;- Original element: &apos;Assign_Project.Assignment_DeleteNumber&apos;&#x0D;&#x0A;- Renamed element: &apos;Assign_Project.Assignment_BrowserSwitch&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Assignment_DeleteNumber&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Assign_Project{Assignment_DeleteNumber.java[Assignment_DeleteNumber" matchStrategy="1" name="Assignment_BrowserSwitch" qualified="false" references="true" similarDeclarations="false" stamp="1432970907511" textual="false" version="1.0"/>
+</session>

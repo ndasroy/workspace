@@ -1,0 +1,19 @@
+package Old_Programmes;
+
+import java.util.Scanner;
+public class Find_Rem 
+
+{
+
+	public static void main(String[] args)
+	{
+		int num1,num2,rem;
+		Scanner S=new Scanner(System.in);
+		System.out.println("Enter the Divident");
+		num1=S.nextInt();
+		System.out.println("Enter the Divisor");
+		num2=S.nextInt();
+		
+		
+	}
+}
